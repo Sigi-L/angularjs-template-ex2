@@ -1,0 +1,44 @@
+[
+    {
+        "fname": "Jack",
+        "lname": "Nicholson",
+        "photo": "https://ia.media-imdb.com/images/M/MV5BMTQ3OTY0ODk0M15BMl5BanBnXkFtZTYwNzE4Njc4._V1_UY317_CR7,0,214,317_AL_.jpg",
+        "imdbLink": "http://www.imdb.com/name/nm0000197/?ref_=nmls_pst",
+        "bDate": "04-22-1937"
+    },
+    {
+        "fname": "Dustin",
+        "lname": "Hoffman",
+        "photo": "https://ia.media-imdb.com/images/M/MV5BMTc3NzU0ODczMF5BMl5BanBnXkFtZTcwODEyMDY5Mg@@._V1_UY209_CR8,0,140,209_AL_.jpg",
+        "imdbLink": "http://www.imdb.com/name/nm0000163/?ref_=nmls_hd",
+        "bDate": "08-08-1937"
+    },
+    {
+        "fname": "Paul",
+        "lname": "Newman",
+        "photo": "https://ia.media-imdb.com/images/M/MV5BODUwMDYwNDg3N15BMl5BanBnXkFtZTcwODEzNTgxMw@@._V1_UY317_CR22,0,214,317_AL_.jpg",
+        "imdbLink": "http://www.imdb.com/name/nm0000056/?ref_=nmls_hd",
+        "bDate": "01-26-1925"
+    },
+    {
+        "fname": "Charles",
+        "lname": "Chaplin",
+        "photo": "https://ia.media-imdb.com/images/M/MV5BNDcwMDc0ODAzOF5BMl5BanBnXkFtZTgwNTY2OTI1MDE@._V1_UX214_CR0,0,214,317_AL_.jpg",
+        "imdbLink": "http://www.imdb.com/name/nm0000122/?ref_=nmls_hd",
+        "bDate": "12-25-1889"
+    },
+    {
+        "fname": "Johnny",
+        "lname": "Depp",
+        "photo": "https://ia.media-imdb.com/images/M/MV5BMTM0ODU5Nzk2OV5BMl5BanBnXkFtZTcwMzI2ODgyNQ@@._V1_UY209_CR3,0,140,209_AL_.jpg",
+        "imdbLink": "http://www.imdb.com/name/nm0000136/?ref_=nmls_hd",
+        "bDate": "06-09-1963"
+    },
+    {
+        "fname": "Robert",
+        "lname": "Redford",
+        "photo": "https://ia.media-imdb.com/images/M/MV5BMTk1Nzc5MzQyMV5BMl5BanBnXkFtZTcwNjQ5OTA0Mg@@._V1_UY209_CR5,0,140,209_AL_.jpg",
+        "imdbLink": "http://www.imdb.com/name/nm0000602/?ref_=nmls_hd",
+        "bDate": "08-18-1936"
+    }
+]
