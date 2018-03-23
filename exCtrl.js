@@ -1,8 +1,10 @@
+// myApp.controller('exCtrl', ['$scope', function ($scope) {
+// $scope.msg = 'This Must Work!';
 myApp.controller("exCtrl", function ($scope, $http, $log) {
     function Actor(fname, lname, photo, imdbLink, bDate) {
         this.fname = fname;
         this.lname = lname;
-        // this.selected = false;
+
         this.photo = photo;
         this.imdbLink = imdbLink;
         this.bDate = new Date(bDate);
@@ -10,6 +12,7 @@ myApp.controller("exCtrl", function ($scope, $http, $log) {
             return this.fname + " " + this.lname;
         }
     }
+
 
     function ActorObj(actor) {
         this.fname = actor.fname;
@@ -26,7 +29,6 @@ myApp.controller("exCtrl", function ($scope, $http, $log) {
     $http.get("actors.json").then(function (response) {
         // on success
         $log.debug("CARAPP: " + JSON.stringify(response));
-        //$scope.cars = response.data;
         for (var i = 0; i < response.data.length; i++) {
             $scope.actors.push(new ActorObj(response.data[i]));
         }
@@ -82,6 +84,7 @@ myApp.controller("exCtrl", function ($scope, $http, $log) {
         } else {
             $scope.selectedActor = actor;
         }
+        // actor.selected = !actor.selected;
     }
 
 });
