@@ -88,8 +88,8 @@
             <div class="row">
                 <div class="col-md-4" ng-repeat="actor in actors | filter: searchData | orderBy: orderProp" ng-click="toggleActorSelected(actor)">
 
-                    <div class="card bg-warning"    ng-class="{selected:selectedActor === actor}">
-                        <div class="card-body text-center " >
+                    <div class="card bg-warning" ng-class="{selected:selectedActor === actor}">
+                        <div class="card-body text-center ">
                             <a href="{{actor.imdbLink}}" target="_blank">
                                 <h4 class="card-title text-center">{{actor.fullName()}}</h4>
                             </a>
