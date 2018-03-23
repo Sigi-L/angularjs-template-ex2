@@ -13,7 +13,6 @@ myApp.controller("exCtrl", function ($scope, $http, $log) {
         }
     }
 
-
     function ActorObj(actor) {
         this.fname = actor.fname;
         this.lname = actor.lname;
@@ -25,7 +24,8 @@ myApp.controller("exCtrl", function ($scope, $http, $log) {
             return this.fname + " " + this.lname;
         }
     }
-    $scope.actors = [];
+
+     $scope.actors = [];
     $http.get("actors.json").then(function (response) {
         // on success
         $log.debug("CARAPP: " + JSON.stringify(response));
@@ -86,5 +86,6 @@ myApp.controller("exCtrl", function ($scope, $http, $log) {
         }
         // actor.selected = !actor.selected;
     }
+
 
 });
