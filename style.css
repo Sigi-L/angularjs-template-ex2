@@ -1,3 +1,7 @@
-.selected{
- border: 0.5em solid red;
+.selected {
+    border: 0.5em solid red;
+}
+
+.top-header {
+    margin-top: 5em;
 }
