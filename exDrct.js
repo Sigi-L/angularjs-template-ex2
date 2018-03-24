@@ -9,3 +9,11 @@ myApp.directive('actorsDrct', function () {
     templateUrl: 'actorsDrct.html'
   };
 });
+
+myApp.directive('moviesDrct', function () {
+  return {
+    templateUrl: 'moviesDrct.html'
+  };
+});
+
+

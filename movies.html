@@ -16,16 +16,37 @@
     <script src="exCtrl.js"></script>
     <script src="exDrct.js"></script>
     <script src="moviesCtrl.js"></script>
-    <script src="moviesDrct.js"></script>
+    <!-- <script src="moviesDrct.js"></script> -->
+    <script src="moviesService.js"></script>
 </head>
 
 <body>
     <mynavbar></mynavbar>
     <div class="container top-header">
-        <div ng-controller="exCtrl">
-            <!-- <mynavbar></mynavbar> -->
+        <div ng-controller="moviesCtrl">
             <h1 class="text-center">Movies</h1>
             <hr>
+            <movies-drct></movies-drct>
+
+            <!-- <ul>
+             <l
+             </li>i ng-repeat="num in numArr">
+               {{num}}
+            </ul> -->
+            <!-- <button type="button" ng-click="addToNumArr(10)">Add 10</button> -->
+
+            <!-- <div> -->
+            <!-- Search on all properties of car (also used when filtering using a function  -->
+            <!-- <label for="search">Brand:</label> -->
+            <!-- <input type="text" id="search" ng-model="searchText"> -->
+
+            <!-- Search on brand property only  -->
+            <!--<label for="search">Filter:</label> <input type="text" id="search" ng-model="searchText.brand">-->
+            <!-- </div> -->
+
+
+            <!-- <button ng-click="addCar('BMW', 'X6', 2016, 53000, '02-05-2019')">Add Car</button> -->
+            <!-- <button ng-click="updateCar()">Update Car</button> -->
         </div>
     </div>
 

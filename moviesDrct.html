@@ -1,0 +1,10 @@
+<ul class="list-group">
+    <li class="list-group-item list-group-item-warning" ng-repeat="movie in movies">
+        <p><b>Name: </b>{{movie.name}}</p>
+        <p><b>Length: </b>{{lengthStr(movie.length)}}</p>
+        <p><b>Length: </b>{{movie.length}}</p>
+        <p><b>Stars: </b>{{movie.stars.join(", ")}}</p>
+        <p><b>director: </b>{{movie.director}}</p>
+        <a href="{{movie.imdbLink}}" alt="link" target="_blank"><b>IMDB Link</b></a>
+    </li>
+</ul>
