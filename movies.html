@@ -26,27 +26,19 @@
         <div ng-controller="moviesCtrl">
             <h1 class="text-center">Movies</h1>
             <hr>
+            <div>
+                <label class="px-2" for="search3">Search Name:</label>
+                <input class="px-2" type="text" id="search3" ng-model="search3">
+            </div>
+
+            <div>
+                <label class="px-2" for="order3">Order By:</label>
+                <select class="px-2" ng-model="orderProp3" id="order3">
+                    <option value="name">Name</option>
+                    <option value="Director">Director</option>
+                    F </select>
+            </div>
             <movies-drct></movies-drct>
-
-            <!-- <ul>
-             <l
-             </li>i ng-repeat="num in numArr">
-               {{num}}
-            </ul> -->
-            <!-- <button type="button" ng-click="addToNumArr(10)">Add 10</button> -->
-
-            <!-- <div> -->
-            <!-- Search on all properties of car (also used when filtering using a function  -->
-            <!-- <label for="search">Brand:</label> -->
-            <!-- <input type="text" id="search" ng-model="searchText"> -->
-
-            <!-- Search on brand property only  -->
-            <!--<label for="search">Filter:</label> <input type="text" id="search" ng-model="searchText.brand">-->
-            <!-- </div> -->
-
-
-            <!-- <button ng-click="addCar('BMW', 'X6', 2016, 53000, '02-05-2019')">Add Car</button> -->
-            <!-- <button ng-click="updateCar()">Update Car</button> -->
         </div>
     </div>
 
