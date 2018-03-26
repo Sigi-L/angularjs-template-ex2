@@ -4,9 +4,9 @@ myApp.directive('mynavbar', function () {
   };
 });
 
-myApp.directive('actorsDrct', function () {
+myApp.directive('actors', function () {
   return {
-    templateUrl: 'actorsDrct.html'
+    templateUrl: 'actors.html'
   };
 });
 
@@ -16,4 +16,8 @@ myApp.directive('moviesDrct', function () {
   };
 });
 
-
+myApp.directive('movies', function () {
+  return {
+    templateUrl: 'movies.html'
+  };
+});
