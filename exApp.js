@@ -3,8 +3,8 @@ var myApp = angular.module('myApp',  ['ngRoute']);
 myApp.config(function($routeProvider) {
     $routeProvider
       .when("/", {
-        templateUrl: "actors.html",
-        controller: "exCtrl"
+        templateUrl: "home.html",
+        controller: "homeCtrl"
       }).when ("/actors", {
         templateUrl: "actors.html",
         controller: "exCtrl"
