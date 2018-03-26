@@ -1,7 +1,7 @@
 
 
 
-myApp.controller("moviesCtrl", function ($scope, $http, $log, moviesService) {
+myApp.controller("moviesCtrl", function ($scope, $http, $log, $location, moviesService) {
 
     // Putting the service object available for the HTML
     // $scope.moviesService = moviesService;
@@ -30,5 +30,11 @@ myApp.controller("moviesCtrl", function ($scope, $http, $log, moviesService) {
  $scope.changeSort3 = function (propName) {
      $scope.orderProp3 = propName;
  }
+
+
+ $scope.openMovie = function(movie) {
+    // alert($scope.movies.indexOf(movie));
+    $location.path('/movies/' + $scope.movies.indexOf(movie));
+  }
 
 });

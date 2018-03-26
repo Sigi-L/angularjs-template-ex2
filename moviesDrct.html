@@ -1,5 +1,7 @@
 <ul class="list-group">
-    <li class="list-group-item list-group-item-warning" ng-repeat="movie in movies  | filter: searchData3 | orderBy: orderProp3" >
+    <li class="list-group-item list-group-item-warning" 
+    ng-repeat="movie in movies  | filter: searchData3 | orderBy: orderProp3" 
+    ng-click="openMovie(movie)" >
         <p><b>Name: </b>{{movie.name}}</p>
         <p><b>Length: </b>{{lengthStr(movie.length)}}</p>
         <p><b>Length: </b>{{movie.length}}</p>
@@ -9,5 +11,3 @@
     </li>
 </ul>
 
-<!-- <div class="col-md-4" ng-repeat="actor in actors
-    | filter: searchData | orderBy: orderProp" ng-click="toggleActorSelected(actor)"> -->
